@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import * as FaIcon from "react-icons/fa"
+import { FaCrosshairs } from "react-icons/fa6";
 
 function Home() {
     return (
@@ -13,11 +15,7 @@ function Home() {
                     className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 ease-in-out"
                 >
                     <div className="flex justify-center mb-4">
-                        <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/9/97/Valorant_logo.svg" // Logo or image for Agents
-                            alt="Agents"
-                            className="w-16 h-16"
-                        />
+                        <FaIcon.FaUser className="text-4xl" /> {/* Icon for Agents */}
                     </div>
                     <h2 className="text-2xl font-semibold text-center mb-2">Agents</h2>
                     <p className="text-center text-gray-200">Discover and select agents for your team!</p>
@@ -29,11 +27,7 @@ function Home() {
                     className="bg-green-500 text-white p-6 rounded-lg shadow-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-105 ease-in-out"
                 >
                     <div className="flex justify-center mb-4">
-                        <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Valorant_map_icon.svg" // Icon or image for Maps
-                            alt="Maps"
-                            className="w-16 h-16"
-                        />
+                        <FaIcon.FaMapMarkedAlt className="text-4xl" /> {/* Icon for Maps */}
                     </div>
                     <h2 className="text-2xl font-semibold text-center mb-2">Maps</h2>
                     <p className="text-center text-gray-200">Explore various maps for your next battle!</p>
@@ -45,11 +39,7 @@ function Home() {
                     className="bg-red-500 text-white p-6 rounded-lg shadow-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105 ease-in-out"
                 >
                     <div className="flex justify-center mb-4">
-                        <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Valorant_arsenal_icon.svg" // Icon or image for Arsenal
-                            alt="Arsenal"
-                            className="w-16 h-16"
-                        />
+                        <FaIcon.FaCrosshairs className="text-4xl" /> {/* Icon for Arsenal (Weapon) */}
                     </div>
                     <h2 className="text-2xl font-semibold text-center mb-2">Arsenal</h2>
                     <p className="text-center text-gray-200">Check out the arsenal of weapons available.</p>
