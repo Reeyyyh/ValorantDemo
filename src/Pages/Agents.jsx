@@ -8,7 +8,7 @@ function Agents() {
                 {/* Agent Omen */}
                 <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
                     <img
-                        src="https://example.com/omen.jpg" // Gantilah URL ini dengan gambar Omen yang sesuai
+                        src="https://wallpapers.com/images/hd/valorant-desktop-wallpaper-56cc8b15f4b93ye6.jpg"
                         alt="Omen"
                         className="w-full h-56 object-cover rounded-md mb-4"
                     />
@@ -19,7 +19,7 @@ function Agents() {
                 {/* Agent Yoru */}
                 <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
                     <img
-                        src="https://example.com/yoru.jpg" // Gantilah URL ini dengan gambar Yoru yang sesuai
+                        src="https://wallpapers.com/images/hd/yoru-valorant-tnn4rhw6rxqmem3k.jpg"
                         alt="Yoru"
                         className="w-full h-56 object-cover rounded-md mb-4"
                     />
@@ -30,7 +30,7 @@ function Agents() {
                 {/* Agent Cypher */}
                 <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
                     <img
-                        src="https://example.com/cypher.jpg" // Gantilah URL ini dengan gambar Cypher yang sesuai
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3g92s0HYUbijjEv7fSjFWL3ajcI_p40UkDQ&s"
                         alt="Cypher"
                         className="w-full h-56 object-cover rounded-md mb-4"
                     />
