@@ -9,7 +9,7 @@ function Sidebar() {
         <div className="flex">
             {/* Sidebar */}
             <div
-                className={`h-screen bg-slate-700 text-white shadow-lg transition-all duration-300 ${isExpanded ? "w-64" : "w-20"}`}>
+                className={` bg-slate-700 text-white shadow-lg transition-all duration-300 ${isExpanded ? "w-64" : "w-20"}`}>
                 <button
                     onClick={() => setIsExpanded(!isExpanded)}
                     className={`p-4 focus:outline-none text-lg bg-slate-800 w-full flex items-center gap-2 transition-all duration-300 ${isExpanded ? "justify-start" : "justify-center"
