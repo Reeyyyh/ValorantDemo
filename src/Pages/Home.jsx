@@ -5,7 +5,7 @@ import { FaCrosshairs } from "react-icons/fa6";
 function Home() {
     return (
         <div className="p-8">
-            <h1 className="text-3xl font-bold text-center mb-12 text-gray-800">Welcome to Home Page</h1>
+            <h1 className="text-3xl font-bold text-center mb-12 text-gray-800">Home</h1>
 
             {/* Cards Container */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
