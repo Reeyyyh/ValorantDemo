@@ -8,7 +8,7 @@ function Agents() {
             <h1 className="text-3xl font-bold text-center mb-8">Agents</h1>
 
             {/* Agents Container */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                 {agentsData.map((agent) => (
                     <AgentCard key={agent.id} agent={agent} />
                 ))}
@@ -30,7 +30,7 @@ function AgentCard({ agent }) {
     return (
         <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             {/* Gambar dengan handling */}
-            <div className="w-full h-56 relative mb-4">
+            <div className="w-full h-100 relative mb-4">
                 {loading && !error && (
                     <div className="w-full h-full flex items-center justify-center bg-gray-700 rounded-md">
                         <div className="loader border-t-2 border-white rounded-full w-8 h-8 animate-spin"></div>
@@ -44,7 +44,7 @@ function AgentCard({ agent }) {
                     <img
                         src={agent.AgentsImage}
                         alt={agent.AgentsName}
-                        className={`w-full h-full object-contain rounded-md ${
+                        className={`w-full h-full object-cover rounded-md ${
                             loading ? "hidden" : "block"
                         }`}
                         onLoad={handleImageLoad}
