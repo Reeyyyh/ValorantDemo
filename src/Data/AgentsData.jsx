@@ -1,13 +1,15 @@
 const agentsData = [
+    // Col 1
     {
         id: 1,
+        AgentsImage: "",
         AgentsName: "Brimstone",
         AgentsRole: "Controller",
         AgentsDescription: "lorem ipsun",
     },
     {
         id: 2,
-        AgentsName: "Phoenix",
+        AgentsName: "Phoniex",
         AgentsRole: "Duelist",
         AgentsDescription: "lorem ipsun",
     },
@@ -17,6 +19,7 @@ const agentsData = [
         AgentsRole: "Sentinel",
         AgentsDescription: "lorem ipsun",
     },
+    // col 2
     {
         id: 4,
         AgentsName: "Sova",
@@ -35,6 +38,7 @@ const agentsData = [
         AgentsRole: "Sentinel",
         AgentsDescription: "lorem ipsun",
     },
+    // Col 3
     {
         id: 7,
         AgentsName: "Reyna",
@@ -53,6 +57,7 @@ const agentsData = [
         AgentsRole: "Initiator",
         AgentsDescription: "lorem ipsun",
     },
+    // Col 4
     {
         id: 10,
         AgentsName: "Omen",
@@ -71,6 +76,7 @@ const agentsData = [
         AgentsRole: "Duelist",
         AgentsDescription: "lorem ipsun",
     },
+    // Col 5
     {
         id: 13,
         AgentsName: "Skye",
@@ -89,9 +95,74 @@ const agentsData = [
         AgentsRole: "Controller",
         AgentsDescription: "lorem ipsun",
     },
+    // COl 6
     {
         id: 16,
         AgentsName: "Kay/o",
+        AgentsRole: "Initiator",
+        AgentsDescription: "lorem ipsun",
+    },
+    // 
+    {
+        id: 17,
+        AgentsName: "Chamber",
+        AgentsRole: "Sentinel",
+        AgentsDescription: "lorem ipsun",
+    },
+    {
+        id: 18,
+        AgentsName: "Neon",
+        AgentsRole: "Duelist",
+        AgentsDescription: "lorem ipsun",
+    },
+    // Col 7
+    {
+        id: 19,
+        AgentsName: "Fade",
+        AgentsRole: "Initiator",
+        AgentsDescription: "lorem ipsun",
+    },
+    {
+        id: 20,
+        AgentsName: "Harbor",
+        AgentsRole: "Controller",
+        AgentsDescription: "lorem ipsun",
+    },
+    {
+        id: 21,
+        AgentsName: "Gekko",
+        AgentsRole: "Initiator",
+        AgentsDescription: "lorem ipsun",
+    },
+    // Col 8
+    {
+        id: 22,
+        AgentsName: "Deadlock",
+        AgentsRole: "Sentinel",
+        AgentsDescription: "lorem ipsun",
+    },
+    {
+        id: 23,
+        AgentsName: "Iso",
+        AgentsRole: "Duelist",
+        AgentsDescription: "lorem ipsun",
+    },
+    {
+        id: 24,
+        AgentsName: "Clove",
+        AgentsRole: "Controller",
+        AgentsDescription: "lorem ipsun",
+    },
+    // Col 9
+    {
+        id: 25,
+        AgentsName: "Vyse",
+        AgentsRole: "Sentinel",
+        AgentsDescription: "lorem ipsun",
+    },
+    {
+        id: 26,
+        AgentsName: "Tejo",
         AgentsRole: "Initiator",
         AgentsDescription: "lorem ipsun",
     },
