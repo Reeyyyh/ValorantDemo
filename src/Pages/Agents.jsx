@@ -44,7 +44,7 @@ function AgentCard({ agent }) {
                     <img
                         src={agent.AgentsImage}
                         alt={agent.AgentsName}
-                        className={`w-full h-full object-cover rounded-md ${
+                        className={`w-full h-full object-contain rounded-md ${
                             loading ? "hidden" : "block"
                         }`}
                         onLoad={handleImageLoad}
