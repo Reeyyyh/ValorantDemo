@@ -55,7 +55,7 @@ function MapsCard({ map }) {
             </div>
 
             <h2 className="text-xl font-bold">{map.MapName}</h2>
-            <p className="text-[12px] text-wrap">{map.MapDescription}</p>
+            <p className="text-[12px] text-wrap text-gray-400 ">{map.MapDescription}</p>
         </div>
     );
 }
