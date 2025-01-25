@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { FaExclamationTriangle } from "react-icons/fa";
 import agentsData from "../Data/AgentsData";
+import Footer from "../Components/Footer";
 
 function Agents() {
     return (
-        <div className="p-8">
+        <div className="px-8">
             <h1 className="text-3xl font-bold text-center mb-8">Agents</h1>
 
             {/* Agents Container */}
@@ -12,6 +13,9 @@ function Agents() {
                 {agentsData.map((agent) => (
                     <AgentCard key={agent.id} agent={agent} />
                 ))}
+            </div>
+            <div className="pt-8">
+                <Footer></Footer>
             </div>
         </div>
     );
@@ -44,9 +48,8 @@ function AgentCard({ agent }) {
                     <img
                         src={agent.AgentsImage}
                         alt={agent.AgentsName}
-                        className={`w-full h-full object-cover rounded-md ${
-                            loading ? "hidden" : "block"
-                        }`}
+                        className={`w-full h-full object-cover rounded-md ${loading ? "hidden" : "block"
+                            }`}
                         onLoad={handleImageLoad}
                         onError={handleImageError}
                     />

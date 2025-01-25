@@ -1,20 +1,20 @@
 const arsenalData = [
     {
         id: 1,
+        ArsenalImage:'',
         ArsenalName:'Ghost',
         ArsenalDescription:'',
-        ArsenalImage:'',
     },
     {
         id: 2,
+        ArsenalImage:'',
         ArsenalName:'Spectre',
         ArsenalDescription:'',
-        ArsenalImage:'',
     },
     {
         id: 3,
+        ArsenalImage:'',
         ArsenalName:'Phantom',
         ArsenalDescription:'',
-        ArsenalImage:'',
     }
 ]

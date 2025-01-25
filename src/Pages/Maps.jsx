@@ -1,11 +1,12 @@
 import { useState } from "react";
 import mapData from "../Data/MapsData";
 import { FaExclamationTriangle } from "react-icons/fa";
+import Footer from "../Components/Footer";
 
 // Maps.jsx
 function Maps() {
     return (
-        <div className="p-8">
+        <div className="px-8">
             <h1 className="text-3xl font-bold text-center mb-8">Maps</h1>
 
             {/* Maps Container */}
@@ -13,6 +14,9 @@ function Maps() {
                 {mapData.map((map) => (
                     <MapsCard key={map.id} map={map} />
                 ))}
+            </div>
+            <div className="pt-8">
+                <Footer></Footer>
             </div>
         </div>
     );
