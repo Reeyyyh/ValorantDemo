@@ -9,7 +9,7 @@ function Maps() {
             <h1 className="text-3xl font-bold text-center mb-8">Maps</h1>
 
             {/* Maps Container */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {mapData.map((map) => (
                     <MapsCard key={map.id} map={map} />
                 ))}
@@ -55,6 +55,7 @@ function MapsCard({ map }) {
             </div>
 
             <h2 className="text-xl font-semibold">{map.MapName}</h2>
+            <p className="text-sm text-wrap">{map.MapDescription}</p>
         </div>
     );
 }
