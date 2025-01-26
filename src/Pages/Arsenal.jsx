@@ -53,7 +53,8 @@ function ArsenalCard({ arsenal }) {
                 )}
             </div>
             <h2 className="text-xl font-bold">{arsenal.ArsenalName}</h2>
-            <p className="text-[12px] text-wrap text-gray-400 ">{arsenal.ArsenalType}</p>
+            <p className="text-[12px] text-wrap text-gray-400">{arsenal.ArsenalType}</p>
+            <p className="text-[16px] text-wrap text-gray-200">{arsenal.ArsenalDescription}</p>
         </div>
 
     )
