@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaExclamationTriangle } from "react-icons/fa";
 import agentsData from "../Data/AgentsData";
 import Footer from "../Components/Footer";
+import { Link } from "react-router-dom"
 
 function Agents() {
     return (
@@ -9,11 +10,15 @@ function Agents() {
             <h1 className="text-3xl font-bold text-center mb-8">Agents</h1>
 
             {/* Agents Container */}
+
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                 {agentsData.map((agent) => (
-                    <AgentCard key={agent.id} agent={agent} />
+                    <Link to={`/Agents/${agent.AgentsName}`} key={agent.id} >
+                        <AgentCard agent={agent} />
+                    </Link>
                 ))}
             </div>
+
             <div className="pt-8">
                 <Footer></Footer>
             </div>
@@ -32,8 +37,7 @@ function AgentCard({ agent }) {
     };
 
     return (
-        <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-            {/* Gambar dengan handling */}
+        <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 hover:bg-gray-700 transition-transform duration-300">
             <div className="w-full h-100 relative mb-4">
                 {loading && !error && (
                     <div className="w-full h-full flex items-center justify-center bg-gray-700 rounded-md">
@@ -61,6 +65,7 @@ function AgentCard({ agent }) {
             <p className="text-gray-400 mt-2">{agent.AgentsDescription}</p>
         </div>
     );
+
 }
 
 export default Agents;
