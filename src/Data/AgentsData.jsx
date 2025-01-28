@@ -210,20 +210,20 @@ const agentsData = [
         AgentsDescription: "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "FLASHPOINT",
+                description: "EQUIP a blinding charge. FIRE the charge to set fast-acting burst through the wall. The charge detonates to blind all players looking at it."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "FAULT LINE", 
+                description: "EQUIP a seismic blast. HOLD FIRE to increase the distance. RELEASE to set off the quake, dazing all players in its zone and in a line up to the zone." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "AFTERSHOCK", 
+                description: "EQUIP a fusion charge. FIRE the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "ROLLING THUNDER", 
+                description: "EQUIP a seismic charge. FIRE to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it." 
             },
         ],
     },
@@ -235,20 +235,20 @@ const agentsData = [
         AgentsDescription: "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "PARANOIA",
+                description: "INSTANTLY fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "DARK COVER", 
+                description: "EQUIP a shadow orb, entering a phased world to place and target the orbs. PRESS the ability key to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. HOLD FIRE while targeting to move the marker further away. HOLD ALT FIRE while targeting to move the marker closer. PRESS RELOAD to toggle normal targeting view." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "SHROUDED STEP", 
+                description: "EQUIP a shadow walk ability and see its range indicator. FIRE to begin a brief channel, then teleport to the marked location." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "FROM THE SHADOWS", 
+                description: "EQUIP a tactical map. FIRE to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport." 
             },
         ],
     },
@@ -260,20 +260,20 @@ const agentsData = [
         AgentsDescription: "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "UPDRAFT",
+                description: "INSTANTLY propel Jett high into the air."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "TAILWIND", 
+                description: "ACTIVATE to prepare a gust of wind for a limited time. RE-USE the wind to propel Jett in the direction she is moving. If Jett is standing still, she propels forward. Tailwind charge resets every two kills." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "CLOUDBURST", 
+                description: "INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surface. HOLD the ability key to curve the smoke in the direction of your crosshair." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "BLADE STORM", 
+                description: "EQUIP a set of highly accurate throwing knives. FIRE to throw a single knife and recharge knives on a kill. ALT FIRE to throw all remaining daggers but does not recharge on a kill." 
             },
         ],
     },
@@ -285,20 +285,20 @@ const agentsData = [
         AgentsDescription: "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of \"boom.\"",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "BLAST PACK",
+                description: "INSTANTLY throw a Blast Pack that will stick to surfaces. RE-USE the ability after deployment to detonate, damaging and moving anything hit. Raze isn't damaged by this ability, but will still take fall damage if launched up far enough."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "PAINT SHELLS", 
+                description: "EQUIP a cluster grenade. FIRE to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range. ALT FIRE to lob. Paint Shells charge resets every two kills." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "BOOM BOT", 
+                description: "EQUIP a Boom Bot. FIRE will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in its frontal cone and chase them, exploding for heavy damage if it reaches them." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "SHOWSTOPPER", 
+                description: "EQUIP a rocket launcher. FIRE to shoot a rocket that does massive area damage on contact with anything." 
             },
         ],
     },

@@ -40,14 +40,16 @@ const AgentsCardDetails = () => {
                         </h2>
                         <p className="text-gray-300 mb-6">{agent.AgentsDescription}</p>
 
+
                         {/* List of Abilities */}
-                        <ul className="flex flex-col lg:flex-row justify-around sm:justify-center sm:gap-4 pt-6 border-t border-gray-700">
+                        <h3 className="text-center border-y border-yellow-400 py-2 font-semibold">SPECIAL ABILITIES</h3>
+                        <ul className="flex flex-col lg:flex-row justify-around sm:justify-center sm:gap-4 pt-6 ">
                             {agent.AgentsAbility.map((ability, index) => (
                                 <li
                                     key={index}
                                     className={`cursor-pointer p-3 rounded-lg text-center transition-all duration-300 ${currentAbility.name === ability.name
-                                            ? "bg-yellow-500 text-gray-900 font-semibold border-2 border-yellow-400"
-                                            : "hover:bg-gray-700 hover:text-white"
+                                        ? "bg-yellow-500 text-gray-900 font-semibold border-2 border-yellow-400"
+                                        : "hover:bg-gray-700 hover:text-white"
                                         }`}
                                     onClick={() => handleAbilityClick(ability)}
                                 >
