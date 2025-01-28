@@ -46,7 +46,7 @@ const agentsData = [
             },
             { 
                 name: "RUN IT BACK", 
-                description: "INSTANTLY place a marker at Phoenix’s location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health." 
+                description: "INSTANTLY place a marker at Phoenix\'s location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health." 
             },
         ],
     },
@@ -376,7 +376,7 @@ const agentsData = [
                 name: "", 
                 description: "" 
             },
-        ],s
+        ],
     },
     {
         id: 16,
