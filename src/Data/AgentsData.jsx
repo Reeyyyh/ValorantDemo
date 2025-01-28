@@ -56,6 +56,24 @@ const agentsData = [
         AgentsName: "Sage",
         AgentsRole: "Sentinel",
         AgentsDescription: "The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 4,
@@ -63,6 +81,24 @@ const agentsData = [
         AgentsName: "Sova",
         AgentsRole: "Initiator",
         AgentsDescription: "Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     // col 2
     {
@@ -71,6 +107,24 @@ const agentsData = [
         AgentsName: "Viper",
         AgentsRole: "Controller",
         AgentsDescription: "The American Chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy's vision. If the toxins don't kill her prey, her mindgames surely will.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 6,
@@ -78,6 +132,24 @@ const agentsData = [
         AgentsName: "Cypher",
         AgentsRole: "Sentinel",
         AgentsDescription: "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 7,
@@ -85,6 +157,24 @@ const agentsData = [
         AgentsName: "Reyna",
         AgentsRole: "Duelist",
         AgentsDescription: "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 8,
@@ -92,6 +182,24 @@ const agentsData = [
         AgentsName: "Killjoy",
         AgentsRole: "Sentinel",
         AgentsDescription: "The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     // Col 3
     {
@@ -100,6 +208,24 @@ const agentsData = [
         AgentsName: "Breach",
         AgentsRole: "Initiator",
         AgentsDescription: "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 10,
@@ -107,6 +233,24 @@ const agentsData = [
         AgentsName: "Omen",
         AgentsRole: "Controller",
         AgentsDescription: "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 11,
@@ -114,6 +258,24 @@ const agentsData = [
         AgentsName: "Jett",
         AgentsRole: "Duelist",
         AgentsDescription: "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 12,
@@ -121,6 +283,24 @@ const agentsData = [
         AgentsName: "Raze",
         AgentsRole: "Duelist",
         AgentsDescription: "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of \"boom.\"",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     // Col 4
     {
@@ -129,6 +309,24 @@ const agentsData = [
         AgentsName: "Skye",
         AgentsRole: "Initiator",
         AgentsDescription: "Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye\'s side.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 14,
@@ -136,6 +334,24 @@ const agentsData = [
         AgentsName: "Yoru",
         AgentsRole: "Duelist",
         AgentsDescription: "Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 15,
@@ -143,6 +359,24 @@ const agentsData = [
         AgentsName: "Astra",
         AgentsRole: "Controller",
         AgentsDescription: "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],s
     },
     {
         id: 16,
@@ -150,6 +384,24 @@ const agentsData = [
         AgentsName: "Kay/o",
         AgentsRole: "Initiator",
         AgentsDescription: "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to Suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     // Col 5
     {
@@ -158,6 +410,24 @@ const agentsData = [
         AgentsName: "Chamber",
         AgentsRole: "Sentinel",
         AgentsDescription: "Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 18,
@@ -165,6 +435,24 @@ const agentsData = [
         AgentsName: "Neon",
         AgentsRole: "Duelist",
         AgentsDescription: "Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 19,
@@ -172,6 +460,24 @@ const agentsData = [
         AgentsName: "Fade",
         AgentsRole: "Initiator",
         AgentsDescription: "Turkish bounty hunter, Fade, unleashes the power of raw nightmares to seize enemy secrets. Attuned with terror itself, she hunts targets and reveals their deepest fears—before crushing them in the dark.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 20,
@@ -179,6 +485,24 @@ const agentsData = [
         AgentsName: "Harbor",
         AgentsRole: "Controller",
         AgentsDescription: "Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     // Col 6
     {
@@ -187,6 +511,24 @@ const agentsData = [
         AgentsName: "Gekko",
         AgentsRole: "Initiator",
         AgentsDescription: "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 22,
@@ -194,6 +536,24 @@ const agentsData = [
         AgentsName: "Deadlock",
         AgentsRole: "Sentinel",
         AgentsDescription: "Norwegian operative Deadlock deploys an array of cutting-edge nanowire to secure the battlefield from even the most lethal assault. No one escapes her vigilant watch, nor survives her unyielding ferocity.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 23,
@@ -201,6 +561,24 @@ const agentsData = [
         AgentsName: "Iso",
         AgentsRole: "Duelist",
         AgentsDescription: "Chinese fixer for hire, Iso falls into a flow state to dismantle the opposition. Reconfiguring ambient energy into bulletproof protection, he advances with focus towards his next duel to the death.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 24,
@@ -208,6 +586,24 @@ const agentsData = [
         AgentsName: "Clove",
         AgentsRole: "Controller",
         AgentsDescription: "Scottish troublemaker Clove makes mischief for enemies in both the heat of combat and the cold of death. The young immortal keeps foes guessing, even from beyond the grave, their return to the living only ever a moment away.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     // Col 7
     {
@@ -216,6 +612,24 @@ const agentsData = [
         AgentsName: "Vyse",
         AgentsRole: "Sentinel",
         AgentsDescription: "Metallic mastermind Vyse unleashes liquid metal to isolate, trap, and disarm her enemies. Through cunning and manipulation, she forces all who oppose her to fear the battlefield itself.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
     {
         id: 26,
@@ -223,6 +637,24 @@ const agentsData = [
         AgentsName: "Tejo",
         AgentsRole: "Initiator",
         AgentsDescription: "A veteran intelligence consultant from Colombia, Tejo's ballistic guidance system pressures the enemy to relinquish their ground - or their lives. His targeted strikes keep opponents off balance and under his heel.",
+        AgentsAbility: [
+            {
+                name: "",
+                description: ""
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+            { 
+                name: "", 
+                description: "" 
+            },
+        ],
     },
 ];
 
