@@ -61,8 +61,7 @@ function AgentCard({ agent }) {
             </div>
 
             <h2 className="text-xl font-semibold">{agent.AgentsName.toLocaleUpperCase()}</h2>
-            <h2 className="text-sm">{agent.AgentsRole}</h2>
-            <p className="text-gray-400 mt-2">{agent.AgentsDescription}</p>
+            <h2 className="text-sm text-gray-400">{agent.AgentsRole}</h2>
         </div>
     );
 
