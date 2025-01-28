@@ -31,6 +31,24 @@ const agentsData = [
         AgentsName: "Phoniex",
         AgentsRole: "Duelist",
         AgentsDescription: "Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.",
+        AgentsAbility: [
+            {
+                name: "CURVEBALL",
+                description: "EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right."
+            },
+            { 
+                name: "HOT HANDS", 
+                description: "EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies." 
+            },
+            { 
+                name: "BLAZE", 
+                description: "EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair." 
+            },
+            { 
+                name: "RUN IT BACK", 
+                description: "INSTANTLY place a marker at Phoenix’s location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health." 
+            },
+        ],
     },
     {
         id: 3,
