@@ -58,20 +58,20 @@ const agentsData = [
         AgentsDescription: "The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "SLOW ORB",
+                description: "EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "HEALING ORB", 
+                description: "EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "BARRIER ORB", 
+                description: "EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "RESURRECTION", 
+                description: "EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health." 
             },
         ],
     },
