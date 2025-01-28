@@ -83,20 +83,20 @@ const agentsData = [
         AgentsDescription: "Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "SHOCK BOLT",
+                description: "EQUIP a bow with a shock bolt. FIRE to send the explosive bolt forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of the projectile. ALT FIRE to add up to two bounces to this arrow."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "RECON BOLT", 
+                description: "EQUIP a bow with recon bolt. FIRE to send the recon bolt forward, activating upon collision and Revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. HOLD FIRE to extend the range of the projectile. ALT FIRE to add up to two bounces to this arrow." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "OWL DRONE", 
+                description: "EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will Reveal the location of any player struck by the dart. Enemies can destroy the Owl Drone." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "HUNTER'S FURY", 
+                description: "EQUIP a bow with three long-range wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active." 
             },
         ],
     },
