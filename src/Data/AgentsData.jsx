@@ -109,20 +109,20 @@ const agentsData = [
         AgentsDescription: "The American Chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy's vision. If the toxins don't kill her prey, her mindgames surely will.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "POISON CLOUD",
+                description: "EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability can be picked up to be REDEPLOYED before the round starts and can be RE-USED more than once throughout the round."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "TOXIC SCREEN", 
+                description: "EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters. RE-USE the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be RE-USED more than once." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "SNAKE BITE", 
+                description: "EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "VIPER'S PIT", 
+                description: "EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it." 
             },
         ],
     },
@@ -134,20 +134,20 @@ const agentsData = [
         AgentsDescription: "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "CYBER CAGE",
+                description: "INSTANTLY toss the cyber cage in front of Cypher. Activate to create a zone that blocks vision and slows enemies who pass through it."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "SPYCAM", 
+                description: "EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera's view. While in control of the camera, FIRE to shoot a marking dart. This dart will Reveal the location of any player struck by the dart. This ability can be picked up to be REDEPLOYED." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "TRAPWIRE", 
+                description: "EQUIP a trapwire. FIRE to place a destructible and covert tripwire at the targeted location creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, revealed, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "NEURAL THEFT", 
+                description: "INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all living enemy players." 
             },
         ],
     },
@@ -159,20 +159,20 @@ const agentsData = [
         AgentsDescription: "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "DEVOUR",
+                description: "Enemies killed by Reyna leave behind Soul Orbs that last 3 seconds. INSTANTLY consume a nearby soul orb, rapidly healing for a short duration. Health gained through this skill exceeding 100 will decay over time. If EMPRESS is active, this skill will automatically cast and not consume the orb."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "DISMISS", 
+                description: "INSTANTLY consume a nearby soul orb, becoming intangible for a short duration. If EMPRESS is active, also become invisible." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "LEER", 
+                description: "EQUIP an ethereal destructible eye. ACTIVATE to cast the eye a short distance forward. The eye will Nearsight all enemies who look at it." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "EMPRESS", 
+                description: "INSTANTLY enter a frenzy, increasing firing speed, equip and reload speed dramatically. Scoring a kill renews the duration." 
             },
         ],
     },
@@ -184,20 +184,20 @@ const agentsData = [
         AgentsDescription: "The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "ALARMBOT",
+                description: "EQUIP a covert Alarmbot. FIRE to deploy a bot that hunts down enemies that get in range. After reaching its target, the bot explodes, applying Vulernable. HOLD EQUIP to recall a deployed bot."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "TURRET", 
+                description: "EQUIP a Turret. FIRE to deploy a turret that fires at enemies in a 180 degree cone. HOLD EQUIP to recall the deployed turret." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "NANOSWARM", 
+                description: "EQUIP a Nanoswarm grenade. FIRE to throw the grenade. Upon landing, the Nanoswarm goes covert. ACTIVATE the Nanoswarm to deploy a damaging swarm of nanobots." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "LOCKDOWN", 
+                description: "EQUIP the Lockdown device. FIRE to deploy the device. After a long windup, the device Detains all enemies caught in the radius. The device can be destroyed by enemies." 
             },
         ],
     },
