@@ -311,20 +311,20 @@ const agentsData = [
         AgentsDescription: "Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye\'s side.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "TRAILBLAZER",
+                description: "EQUIP a Tasmanian tiger trinket. FIRE to send out and take control of the predator. While in control, FIRE to leap forward, exploding in a concussive blast and damaging directly hit enemies."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "GUIDING LIGHT", 
+                description: "EQUIP a hawk trinket. FIRE to send it forward. HOLD FIRE to guide the hawk in the direction of your crosshair. RE-USE while the hawk is in flight to transform it into a flash that plays a hit confirm if an enemy was within range and line of sight." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "REGROWTH", 
+                description: "EQUIP a healing trinket. HOLD FIRE to channel, healing allies in range and line of sight. Can be reused until her healing pool is depleted. Skye cannot heal herself." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "SEEKERS", 
+                description: "EQUIP a Seeker trinket. FIRE to send out three Seekers to track down the three closest enemies. If a Seeker reaches its target, it Nearsights them. Enemies can destroy the Seekers." 
             },
         ],
     },
