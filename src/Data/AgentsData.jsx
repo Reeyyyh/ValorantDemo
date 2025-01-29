@@ -336,20 +336,20 @@ const agentsData = [
         AgentsDescription: "Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "BLINDSIDE",
+                description: "EQUIP to rip an unstable dimensional fragment from reality. FIRE to throw the fragment, activating a flash that winds up once it collides with a hard surface in world."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "GATECRASH", 
+                description: "EQUIP a rift tether FIRE to send the tether forward. ALT FIRE to place a stationary tether. ACTIVATE to teleport to the tether's location. USE to trigger a fake teleport." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "FAKEOUT", 
+                description: "EQUIP an echo that transforms into a mirror image of Yoru when activated FIRE to instantly activate the mirror image and send it forward ALT FIRE to place an inactive echo USE to transform an inactive echo into a mirror image and send it forward. Mirror images explode in a blinding flash when destroyed by enemies." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "DIMENSIONAL DRIFT", 
+                description: "EQUIP a mask that can see between dimensions. FIRE to drift into Yoru's dimension, unable to be affected or seen by enemies from the outside. REACTIVATE to exit Yoru's dimension early." 
             },
         ],
     },
@@ -361,20 +361,20 @@ const agentsData = [
         AgentsDescription: "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "NOVA PULSE",
+                description: "Place Stars in Astral Form. ACTIVATE a Star to detonate a Nova Pulse. The Nova Pulse charges briefly then strikes, concussing all players in its area."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "NEBULA", 
+                description: "Place Stars in Astral Form. ACTIVATE a Star to transform it into a Nebula (smoke). USE a Star to Dissipate it, returning the Star to be placed in a new location after a delay. Dissipate briefly forms a fake Nebula at the Star's location before returning." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "GRAVITY WELL", 
+                description: "Place Stars in Astral Form (X) ACTIVATE a Star to form a Gravity Well. Players in the area are pulled toward the center before it explodes, making all players still trapped inside Vulnerable." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "ASTRAL FORM / COSMIC DIVIDE", 
+                description: "ACTIVATE to enter Astral Form where you can place Stars with FIRE. Stars can be reactivated later, transforming them into a Nova Pulse, Nebula, or Gravity Well. When Cosmic Divide is charged, use ALT FIRE in Astral Form to begin aiming it, then FIRE to select two locations. An infinite Cosmic Divide connects the two points you select. Cosmic Divide blocks bullets and heavily dampens audio." 
             },
         ],
     },
@@ -386,20 +386,20 @@ const agentsData = [
         AgentsDescription: "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to Suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "FLASH/DRIVE",
+                description: "EQUIP a flash grenade. FIRE to overhand throw. ALT FIRE to lob a weaker version that explodes quickly. The flash grenade explodes after a short fuse, Blinding anyone in line of sight."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "ZERO/POINT", 
+                description: "EQUIP a suppression blade. FIRE to throw. The blade sticks to the first surface it hits, winds up, and Suppresses anyone in the radius of the explosion. Enemies can destroy this blade." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "FRAG/MENT", 
+                description: "EQUIP an explosive fragment. FIRE to throw. The fragment sticks to the floor and explodes multiple times, dealing near lethal damage at the center with each explosion." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "NULL/CMD", 
+                description: "INSTANTLY overload with polarized radianite energy that pulses from KAY/O in a massive radius. Enemies hit with pulses are Suppressed for a short duration. While overloaded, KAY/O gains Combat Stim and can be re-stabilized if downed." 
             },
         ],
     },
