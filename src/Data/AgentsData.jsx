@@ -412,20 +412,20 @@ const agentsData = [
         AgentsDescription: "Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "HEADHUNTER",
+                description: "ACTIVATE to equip a heavy pistol. ALT FIRE with the pistol equipped to aim down sights."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "RENDEZVOUS", 
+                description: "EQUIP a teleport anchor. FIRE to place it on the ground. While on the ground and in range of the anchor, REACTIVATE to quickly teleport to the anchor. The anchor can be picked up to be REDEPLOYED." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "TRADEMARK", 
+                description: "EQUIP a trap that scans for enemies. FIRE to place it on the ground. When a visible enemy comes in range, the trap counts down and then destabilizes the terrain around them, creating a lingering field that Slows players caught inside of it. The trap can be picked up to be REDEPLOYED." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "TOUR DE FORCE", 
+                description: "ACTIVATE to summon a powerful, custom sniper rifle that will kill an enemy with any direct hit to the upper body. ALT FIRE to aim down sights. Killing an enemy creates a lingering field that Slows players caught inside of it." 
             },
         ],
     },
@@ -437,20 +437,20 @@ const agentsData = [
         AgentsDescription: "Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "RELAY BOLT",
+                description: "INSTANTLY throw an energy bolt that bounces once. Upon hitting each surface, the bolt electrifies the ground below with a concussive blast."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "HIGH GEAR", 
+                description: "INSTANTLY channel Neon’s power for increased speed. When charged, ALT FIRE to trigger an electric slide. Slide charge resets every two kills." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "FAST LANE", 
+                description: "FIRE two energy lines forward on the ground that extend a short distance or until they hit a surface. The lines rise into walls of static electricity that block vision and damage enemies passing through them." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "OVERDRIVE", 
+                description: "Unleash Neon’s full power and speed for a short duration. FIRE to channel the power into a deadly lightning beam with high movement accuracy. The duration resets on each kill." 
             },
         ],
     },
@@ -462,20 +462,20 @@ const agentsData = [
         AgentsDescription: "Turkish bounty hunter, Fade, unleashes the power of raw nightmares to seize enemy secrets. Attuned with terror itself, she hunts targets and reveals their deepest fears—before crushing them in the dark.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "SEIZE",
+                description: "Equip an orb of nightmare ink. FIRE to throw the orb which will plummet to the ground after a set amount of time. Upon hitting the ground, the ink will explode and create a zone in which enemies who are caught in it cannot escape the zone by normal means. RE-USE the ability to drop the projectile early in-flight"
             },
             { 
-                name: "", 
-                description: "" 
+                name: "HAUNT", 
+                description: "Equip a nightmarish entity. FIRE to throw the orb which will plummet to the ground after a set amount of time. Upon hitting the ground, the orb will turn into a nightmarish entity that will reveal the location of enemies caught in its line of sight. Enemies can destroy this entity. RE-USE the ability to drop the projectile early in-flight." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "PROWLER", 
+                description: "EQUIP a Prowler. FIRE will send the Prowler out, causing it to travel in a straight line. The Prowler will lock onto any enemies or trails in their frontal vision cone and chase them, nearsighting them if it reaches them. HOLD the FIRE button to steer the Prowler in the direction of your crosshair." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "NIGHTFALL", 
+                description: "EQUIP the power of Fear. FIRE to send out a wave of nightmare energy that can traverse through walls. The energy creates a trail to the opponent as well as deafens and decays them." 
             },
         ],
     },
@@ -487,20 +487,20 @@ const agentsData = [
         AgentsDescription: "Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him.",
         AgentsAbility: [
             {
-                name: "",
-                description: ""
+                name: "COVE",
+                description: "EQUIP a sphere of shielding water. FIRE to throw. ALT FIRE to underhand throw. Upon impacting the ground, spawn a destructible water shield that blocks bullets."
             },
             { 
-                name: "", 
-                description: "" 
+                name: "HIGH TIDE", 
+                description: "EQUIP a wall of water. FIRE to send the water forward along the ground. HOLD FIRE to guide the water in the direction of your crosshair, passing through the world, spawning a wall along the water’s path. ALT FIRE while bending to stop the water early. Players hit are SLOWED" 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "CASCADE", 
+                description: "EQUIP a wave of water. FIRE to send the wave rolling forward and through walls. RE- USE to stop the wave. Players hit are SLOWED." 
             },
             { 
-                name: "", 
-                description: "" 
+                name: "RECKONING", 
+                description: "EQUIP the full power of your Artifact. FIRE to summon a geyser pool on the ground. Enemy players in the area are targeted by successive geyser strikes. Players caught within a strike are CONCUSSED." 
             },
         ],
     },
